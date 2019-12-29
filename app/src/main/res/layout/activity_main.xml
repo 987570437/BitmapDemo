@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context=".MainActivity">
+
+	<Button
+		android:id="@+id/bt_blur"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="高斯模糊" />
+
+	<Button
+		android:id="@+id/bt_watermark"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="水印" />
+
+	<Button
+		android:id="@+id/bt_huge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="巨图加载" />
+
+</LinearLayout>
